@@ -6,7 +6,7 @@ A guide to sighting the new crescent moon.
 
 ## Why
 
-The Islamic calender is based on the lunar cycle. Each new month is determined upon the sighting of the crescent new moon.
+The Islamic calender is based on the lunar cycle. Each new month is determined upon the sighting of the new crescent moon.
 
 Following the islamic calender becomes particularly important to Muslims at the end of the month of Ramadan as a new moon indicates the start of the next month and the day of Eid.
 
@@ -20,7 +20,7 @@ Every year, for the past 2-3 years I've been saying to my cousin "we should go m
 ## How
 ### If you don't have time to read on, just read this section
 
-If you're living in London, after sunset look low in the sky to the west. Check from 5th July - 6th July 2015. Inshallah it won't be too cloudy and your view won't obstructed by buildings!
+If you're living in London, after sunset look low in the sky to the west. Check from 5th July - 6th July 2016. Inshallah it won't be too cloudy and your view won't obstructed by buildings!
 
 Be wary of moonset times:
 
