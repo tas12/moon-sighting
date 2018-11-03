@@ -1,0 +1,35 @@
+.moon-sighting-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+}
+
+.toggle-button {
+  border: 1px solid turquoise;
+  width: 200px;
+  padding: 10px;
+  height: 100px;
+  color: turquoise;
+  margin: 10px;
+}
+
+.toggle-button:hover,
+.toggle-button.selected:hover {
+  color: turquoise;
+}
+
+.toggle-button.selected {
+  background-color: turquoise;
+  color: white;
+}
+
+.toggle-button-group {
+  display: block;
+}
+
+.location-selector {
+  display: block;
+  width: 200px;
+  margin: 20px 40px;
+  text-align: left;
+}

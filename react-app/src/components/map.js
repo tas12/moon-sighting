@@ -9,7 +9,7 @@ import {
   Marker
 } from "react-simple-maps"
 
-import topoJson from "./data/world-110m.json"
+import topoJson from "../data/world-110m.json"
 
 export default class Map extends Component {
   constructor() {
