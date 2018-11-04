@@ -9,7 +9,7 @@ import {
   Marker
 } from "react-simple-maps"
 
-import topoJson from "../data/world-110m.json"
+import topoJson from "./data/world-110m.json"
 
 export default class Map extends Component {
   constructor() {
@@ -28,14 +28,9 @@ export default class Map extends Component {
   getSightings () {
     return [
       {
-        area: 'Scotland',
-        coordinates: [-4.20, 56.49],
+        area: 'United Kingdom',
+        coordinates: [-3.44, 55.38],
         count: 3
-      },
-      {
-        area: 'England',
-        coordinates: [-1.17, 52.36],
-        count: 1
       },
       {
         area: 'France',
@@ -43,8 +38,13 @@ export default class Map extends Component {
         count: 6
       },
       {
-        area: 'Zurich',
-        coordinates: [8.5, 47.3],
+        area: 'Germany',
+        coordinates: [10.45, 51.17],
+        count: 5
+      },
+      {
+        area: 'Morocco',
+        coordinates: [-7.09, 31.79],
         count: 5
       }
     ];
@@ -68,6 +68,7 @@ export default class Map extends Component {
   render() {
     return(
       <div>
+        <p>Sightings for 10 October 2018</p>
         <ComposableMap>
           <ZoomableGroup>
           <Geographies geography={topoJson}>
@@ -91,9 +92,10 @@ export default class Map extends Component {
                   <Marker
                     marker={{ coordinates: el.coordinates }}
                     style={{
-                      default: { fill: "rgba(233, 195, 175, 0.74)" },
-                      hover:   { fill: "#999" },
+                      default: { fill: "hsla(236, 66%, 68%, 0.5)" },
+                      hover:   { fill: "#787fe3" },
                       pressed: { fill: "#000" },
+                      border: "1px solid purple"
                     }}
                     onMouseEnter={() => this.handleClick(el)}
                     key={i}>

@@ -4,6 +4,9 @@ import './App.css';
 
 import Button from '@material-ui/core/Button';
 
+import Map from './components/Map';
+import MoonSightingForm from './components/MoonSightingForm';
+
 class App extends Component {
   render() {
     return (
